@@ -1,0 +1,806 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav {
+    display: flex;
+    background-color:white;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-weight:500;
+}
+
+.employers{
+    font-weight:500;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+.nav-text{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-text:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.Nav {
+    box-shadow: 0 8px 16px 0 rgba(76, 75, 75, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* 
+/* .body {
+    /* background: url(bg.png); */
+    /* height: auto; */
+    /* width: auto; */
+/* } */
+
+.logo {
+    background-color: rgb(40, 38, 38);
+    border-radius: 2px;
+}
+
+.Login {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 150px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(66, 64, 64, 0.249), 0 6px 20px 0 rgba(45, 44, 44, 0.19);
+}
+
+.Login:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.Register {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.794);
+    height: 40px;
+    width: 90px;
+    border: solid;
+    border: hidden;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Register:hover {
+    background-color: rgba(187, 43, 43, 0.794);
+
+}
+
+.Text01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.Text02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.Search_Bar {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 190px;
+    margin-right: 190px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+
+}
+
+.Search_Bar {
+    box-shadow: 0 8px 16px 0 rgba(42, 41, 41, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Experience {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 180px;
+    border: solid;
+    font-size: 94%;
+    border-radius: 40px;
+    border:hidden;
+    outline: none;
+
+}
+
+.Experience option{
+font-weight:500;
+background-color: rgb(255, 255, 255);
+border: none;
+
+}
+
+.employers {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 140px;
+    border: solid;
+    font-size: 94%;
+    border-radius: 40px;
+    border:none;
+    outline: none;
+}
+
+.Skills {
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border: none;
+    align-items: center;
+    outline: none;
+}
+
+.Location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    border:hidden;
+    outline: none;
+
+}
+
+.pipe {
+    height: 25px;
+    width: 1.5px;
+    background-color: rgba(30, 29, 29, 0.616);
+}
+
+.Para {
+
+    color: rgba(255, 255, 255, 0.707);
+    display: flex;
+    align-items: center;
+    margin: 40PX;
+    font-size: x-large;
+    font-weight: bolder;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.search {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    border: solid;
+    border-radius: 40px;
+    border-color: blue;
+    font-weight: bolder;
+    border: hidden;
+
+}
+
+.search {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.search:hover {
+    background-color: rgba(0, 0, 255, 0.659);
+    color: rgba(255, 255, 255, 0.659) ;
+}
+
+.Icon-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.inner-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: white;
+    margin: 30px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.inner-icon{
+    box-shadow: 0 8px 16px 0 rgba(42, 41, 41, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner-icon:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.bottom-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-pic{
+   height: 200px;
+   border-radius:40px ;
+}
+
+.material-symbols-outlined{
+    border: none;
+    border-radius: 40px;
+    border: 60px;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+.footer-Logo{
+    height: 40px;
+    width: 120px;
+}
+
+.Footer{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+    box-shadow: 0 8px 16px 0 rgba(8, 8, 8, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.599);
+    height: 90px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.f2{
+    display: flex;
+    flex-direction: column;
+    font-size:400;
+    font-weight: 400;
+    margin: 20px;
+    margin-left:40px;
+    align-items:flex-start;
+    justify-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.contact{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin: 30px;
+    display:flex;
+    align-items:center;
+    background-color: rgb(200, 226, 248);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.Jobs{
+  border: 1px solid #ddd;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+
+
+
+.Panels{
+    height: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    gap: 15px;
+    width: 250px;
+}
+
+.panel-img2{
+    height: 100%;
+    width: 100%;
+}
+
+
+.job-panel{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    /* border: solid; */
+    /* border-color: rgb(0, 0, 0); */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 200;
+    align-items: center;
+    justify-content: space-around;
+    font-weight:500;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(8, 8, 8, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.job-panel:hover{
+    background-color: rgb(143, 163, 245);
+    color: rgb(255, 255, 255);
+}
+
+.listing{
+    display: flex;
+    justify-content: center;
+}
+
+.outer-job{
+    margin-left: 100px;
+    box-shadow:0 8px 16px 0 rgba(8, 8, 8, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(218, 221, 247);
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.front-photo{
+    border-radius: 20px;
+    border: solid;
+    border-color: black;
+    box-shadow: 0 8px 16px 0 rgba(8, 8, 8, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+
+.Job-Listing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(8, 8, 8, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem 4.7rem;
+    border-radius: 20px;
+    margin: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+.JOBS-N{
+    /* width: 180PX; */
+    height: 18rem;
+    border-radius: 0.25rem;
+    background-color: white;
+    /* padding: 20px; */
+    /* margin-bottom: 30px; */
+    box-shadow: 0 8px 16px 0 rgba(8, 8, 8, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@keyframes slider{
+    0% { left: 0;
+         }
+
+    20% { left: 0;
+         }
+
+    25% { left: -100%;
+         }
+
+    45%{ left: -100%;
+    }
+
+    50% { left: -200%;
+    }
+
+    70% { left: -200%;
+    }
+
+    95% { left: -300%;
+    }
+
+    100% { left: -400%;
+    }
+}
+
+.front-photo{
+    height: auto;
+    width: auto;
+    border: none;
+
+}
+
+.panel-img{
+    width: 650px;
+    border-radius:20px ;
+    box-shadow: 0 8px 16px 0 rgba(8, 8, 8, 0.249), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.end-con{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 30PX;
+}
+
+
+@media (max-width: 1179px) {
+    .Sign{
+        height: 40px;
+        width: 90px;
+    }
+    .Sign img{
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+    h1{
+        font-size: 110%;
+    }
+    .Login{
+        margin-left: 0;
+    }
+    .nav-text:nth-child(4){
+        margin-right: 80px;
+    }
+    .Search_Bar{
+        margin: 0;
+        padding: 0 20px ;
+        width: 80%;
+        margin: auto;
+    }
+    .Skills{
+        width:auto;
+        font-size: 13px;
+    }
+    .Experience{
+        width: 150px;
+        font-size: 80%;
+    }
+    .Location{
+        font-size: 16px;
+    }
+    .search{
+        width: 80px;
+        height: 35px;
+        font-size: 13px;
+    }
+    .front-photo{
+        height: 200px;
+        width: 550px;
+    }
+    .listing div{
+        display: flex;
+        justify-content: center;
+    }
+    .panel-img{
+        height: 300px;
+        width: 80%;
+        margin: auto;
+        margin: 40px 0;
+    }
+    .listing{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .outer-job{
+        width: 80%;
+        margin: 0;
+        padding: 15px;
+    }
+    .job-panel{
+        font-size: 12px;
+        margin: 10px;
+    }
+    .Icon-box{
+        justify-content: inherit;
+    }
+    .Footer > div{
+        margin: 10px;
+    }
+    .contact{
+        height: 80px;
+        margin: 0;
+    }
+  }
+  @media (max-width: 795px) {
+    .Sign{
+        height: 40px;
+        width: 60px;
+    }
+    .Sign img{
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+    h1{
+        font-size: 90%;
+    }
+    .Login{
+        margin-left: 0;
+        display: none;
+    }
+    .Register{
+        display: none;
+    }
+    .employers{
+        display: none;
+    }
+    .pipe{
+        display: none;
+    }
+    .nav-text:nth-child(4){
+        margin-right: 20px;
+    }
+    .nav-text{display: none;}
+  
+    .material-symbols-outlined{
+        font-size: 16px !important;
+    }
+    .Search_Bar{
+        margin: 0;
+        padding: 0 15px ;
+        width: 80%;
+        margin: auto;
+    }
+    .Skills{
+        width:auto;
+        font-size: 10px;
+    }
+    .Experience{
+        width: 80px;
+        font-size: 40%;
+    }
+    .Location{
+        font-size: 12px;
+        width: 50px;
+    }
+    .search{
+        width: 50px;
+        height: 25px;
+        font-size: 8px;
+    }
+    .front-photo{
+        height: 150px;
+        width: 350px;
+    }
+    .listing div{
+        display: flex;
+        justify-content: center;
+    }
+    .panel-img{
+        height: 200px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px ;
+    }
+    .listing{
+        margin: auto;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .outer-job{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .job-panel{
+        font-size: 10px;
+        margin: 6px;
+    }
+    .Icon-box{
+        margin: auto;
+        justify-content: inherit;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .inner-icon{
+        margin: 10px;
+        font-size: 14px;
+    }
+    .Footer > div{
+        margin: 5px;
+        font-size: 8px;
+        padding: 0;
+    }
+    .Footer{
+        padding: 5px;
+    }
+    .footer-Logo{
+        height: 20px;
+        width: 80px;
+    }
+    .f1{
+        padding: 0;
+    }
+    .contact{
+        font-size: 12px !important;
+        padding: 10px !important;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social{
+        padding: 0;
+        margin: 4px;
+    }
+
+    .end-con{
+        display: none;
+    }
+
+    .outer-map{
+        display: none;
+    }
+  }
+  @media (max-width: 374px) {
+    
+  }
+
+
+  /* .job-panel svg {
+    width: 1.4rem;
+    margin-right: -rem;
+  } */
+
+  .outer-job {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .job-panel {
+    padding: 1rem 2rem;
+    height: auto;
+  }
+
+.JOBS-N{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+.parallax {
+    background-image: url("BACKGROUND.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hoz-pipe{
+    height: 2px;
+    width: 700px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.In-Logo{
+    margin-top: 20px;
+
+}
+
+.inside-box{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.parallax2 {
+    background-image: url("JOBS.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outer-map{
+    padding: auto;
+    
+}
+
+.Maps{
+    height: 120px;
+    width: 160px;
+    margin-top: 20px;
+
+}
